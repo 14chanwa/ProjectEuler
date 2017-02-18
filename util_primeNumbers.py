@@ -1,7 +1,7 @@
 import math
 
-def isPrime(p):
-    
+
+def is_prime(p):
     """
     Tests whether the number is prime or not
     """
@@ -18,8 +18,8 @@ def isPrime(p):
 
     return True
 
-def getNthPrime(n, start):
 
+def get_nth_prime(n, start):
     """
     Gets the nth prime number beginning from start (included)
     """
@@ -27,11 +27,10 @@ def getNthPrime(n, start):
     current = start
     
     while True:
-        if isPrime(current):
-            counter = counter + 1
+        if is_prime(current):
+            counter += 1
             if counter >= n:
                 return current
-        current = current + 1
+        current += 1
     
     return current
-    

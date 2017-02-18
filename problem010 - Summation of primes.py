@@ -6,8 +6,8 @@
 # Summation of primes
 
 import tqdm
+from util_primeNumbers import get_nth_prime
 
-exec(open("util_primeNumbers.py").read(), globals())
 
 def problem10(max):
 
@@ -27,7 +27,7 @@ def problem10(max):
     with tqdm.tqdm(total=max) as pbar:
         while currentPrime < max:
             sum = sum + currentPrime
-            currentPrime = getNthPrime(1, currentPrime + 1)
+            currentPrime = get_nth_prime(1, currentPrime + 1)
             
             # Update progress bar
             pbar.update(currentPrime - previousPrime)

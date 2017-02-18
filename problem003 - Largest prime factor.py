@@ -6,8 +6,8 @@
 # Largest prime factor
 
 import math
+import util_primeNumbers
 
-exec(open("util_primeNumbers.py").read(), globals())
 
 def problem3(n):
     
@@ -15,7 +15,7 @@ def problem3(n):
 
     for i in range(1, math.floor(math.sqrt(n))):
         if n%i == 0:
-            if isPrime(i):
+            if util_primeNumbers.is_prime(i):
                 p = i
 
     return p

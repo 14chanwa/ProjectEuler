@@ -5,9 +5,9 @@
 # Project Euler - Problem 7
 # 10001st prime
 
-exec(open("util_primeNumbers.py").read(), globals())
+from util_primeNumbers import get_nth_prime
 
 def problem7(primeNb):
-    return getNthPrime(primeNb,1)
+    return get_nth_prime(primeNb,1)
 
 print(problem7(10001))

@@ -20,8 +20,7 @@ def transformation(n):
 def recursive_cycle_count(transformation_function, numbers, starting_index):
 
     current_index = starting_index
-    current_indexes = []
-    current_indexes.append(current_index)
+    current_indexes = [current_index]
 
     while current_index != 1 and current_index != 89:
         current_index = transformation_function(current_index)
@@ -34,7 +33,6 @@ def recursive_cycle_count(transformation_function, numbers, starting_index):
         for index in current_indexes:
             numbers[index] = 89
 
-    print(starting_index, len(current_indexes))
 
 max_number = 10**7
 starting_numbers = np.zeros((max_number + 1,), dtype=np.int8)

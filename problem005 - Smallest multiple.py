@@ -5,9 +5,9 @@
 # Project Euler - Problem 5
 # Smallest multiple
 
-import math
 
-exec(open("util_primeNumbers.py").read(), globals())
+from util_primeNumbers import is_prime
+
 
 def problem5(maxEven):
 
@@ -25,7 +25,7 @@ def problem5(maxEven):
         currentProduct = i
         while currentProduct > 1:
             for j in range(currentProduct, 1, -1):
-                if currentProduct%j == 0 and isPrime(j):
+                if currentProduct%j == 0 and is_prime(j):
                     
                     if currentPrimePowers.__contains__(j):
                         currentPrimePowers[j] = currentPrimePowers[j] + 1
