@@ -5,14 +5,16 @@
 # Project Euler - Problem 38
 # Pandigital multiples
 
+
 def getNumberDigits(n):
     """
     Gets the number of digits in n
     """
     d = 0
     while n//(10**d) > 0:
-        d = d + 1
+        d += 1
     return d
+
 
 def isPandigital(n):
     """
@@ -23,10 +25,11 @@ def isPandigital(n):
         count = 0
         for j in range(0,len(strnum)):
             if int(strnum[j]) == i:
-                count = count + 1
+                count += 1
         if count != 1:
             return False
     return True 
+
 
 def problem38(nbDigits):
     """
@@ -46,7 +49,7 @@ def problem38(nbDigits):
         concatenatedProduct = i
         n = 1
         while getNumberDigits(concatenatedProduct) < nbDigits:
-            n = n + 1
+            n += 1
             tmp = i * n
             concatenatedProduct = concatenatedProduct * 10**getNumberDigits(tmp) + tmp
         if concatenatedProduct < nmax and result < concatenatedProduct and isPandigital(concatenatedProduct):
