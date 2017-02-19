@@ -7,10 +7,7 @@
 
 # Get all the prime numbers below 1 million
 
-
 from util_primeNumbers import is_prime
-import itertools
-
 
 prime_numbers = []
 for i in range(2, 10**6 + 1):
