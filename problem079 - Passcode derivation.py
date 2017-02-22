@@ -30,10 +30,10 @@ present_numbers = list(set(present_numbers))
 
 final_passcode = []
 
-# Assume each number appears only once !
-# Look for the least restrictive before conditions
-# The least restrictive is located at the beginning of the passcode
-# Once added, remove the number from the other before conditions
+# Assume each number appears only once!
+# Look for the least restrictive digit (as for "before conditions")
+# The least restrictive digit is located at the beginning of the passcode
+# Once added, remove the number from the other "before conditions"
 
 i = 0
 while i < len(present_numbers):
