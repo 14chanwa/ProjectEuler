@@ -61,29 +61,3 @@ for i in range(6, 7):
 
 print(history)
 print(total_count)
-
-# def recursive_count(remaining_amount, history, start=True, max_authorized=max(merged), doubles=doubles,
-# merged=merged):
-#     count = 0
-#     if start:
-#         # Remove a double from the remaining amount
-#         for amount in doubles:
-#             if remaining_amount - amount < 0:
-#                 break
-#             elif remaining_amount - amount == 0:
-#                 count += 1
-#             else:
-#                 count += recursive_count(remaining_amount - amount, history, False,
-#                                          min(max_authorized, amount), doubles, merged)
-#     else:
-#         count += recursive_count_no_double(remaining_amount, history, max_authorized, doubles, merged)
-#         # # Remove any relevant amount among singles, doubles, triples
-#         # for amount in [i for i in merged if i <= max_authorized]:
-#         #     if remaining_amount - amount < 0:
-#         #         break
-#         #     elif remaining_amount - amount == 0:
-#         #         count += 1
-#         #     else:
-#         #         count += recursive_count(remaining_amount - amount, history, False,
-#         #                                  min(max_authorized, amount), doubles, merged)
-#     return count
