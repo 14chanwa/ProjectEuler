@@ -1,5 +1,5 @@
 #
-# Created by 14chanwa on 2017.02.23
+# Created by 14chanwa on 2017.02.25
 #
 
 # Project Euler - Problem 107
