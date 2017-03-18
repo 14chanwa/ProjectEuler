@@ -23,6 +23,7 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  14 | Longest Collatz sequence | 5% |
 |  15 | Lattice paths | 5% |
 |  16 | Power digit sum | 5% |
+|  18 | Maximum path sum I | 5% |
 |  26 | Reciprocal cycles | 5% |
 |  31 | Coin sums | 5% |
 |  32 | Pandigital products | 5% |
@@ -32,6 +33,7 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  46 | Goldobach's other conjecture | 5% |
 |  54 | Poker hands | 10% |
 |  65 | Convergents of e | 15% |
+|  67 | Maximum path sum II | 5% |
 |  79 | Passcode derivation | 5% |
 |  89 | Roman numerals | 20% |
 |  92 | Square digit chains | 5% |
