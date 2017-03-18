@@ -23,7 +23,9 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  14 | Longest Collatz sequence | 5% |
 |  15 | Lattice paths | 5% |
 |  16 | Power digit sum | 5% |
+|  17 | Number letter counts | 5% |
 |  18 | Maximum path sum I | 5% |
+|  19 | Counting Sundays | 5% |
 |  26 | Reciprocal cycles | 5% |
 |  31 | Coin sums | 5% |
 |  32 | Pandigital products | 5% |
