@@ -15,9 +15,10 @@
 
 import math
 
-n = ( math.log(math.sqrt(5)) + 999 * math.log(10) ) / math.log( (1 + math.sqrt(5)) / 2 )
+n = (math.log(math.sqrt(5)) + 999 * math.log(10)) / math.log((1 + math.sqrt(5)) / 2)
 
 # i.e. n ~ 4781.8592...
 # Since phi**(-1) ~ 0.62... ~ 6 * 10**(-1), we have phi**(-n) ~ 10**(-4781) << 1. 
 
 # Thus we have found n = 4782.
+print(math.ceil(n))
