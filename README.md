@@ -29,6 +29,8 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  20 | Factorial digit sum | 5% |
 |  21 | Amicable numbers | 5% |
 |  22 | Names scores | 5% |
+|  23 | Non-abundant sums | 5% |
+|  24 | Lexicographic permutations | 5% |
 |  25 | 1000-digit Fibonacci number | 5% |
 |  26 | Reciprocal cycles | 5% |
 |  31 | Coin sums | 5% |
