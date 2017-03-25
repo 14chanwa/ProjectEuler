@@ -1,6 +1,6 @@
 # projectEuler
 
-[link]![badge](https://projecteuler.net/profile/14chanwa.png)(https://projecteuler.net/)
+![badge](https://projecteuler.net/profile/14chanwa.png)
 
 A collection of Python scripts solving some of the math-info problems available online at https://projecteuler.net/.
 
