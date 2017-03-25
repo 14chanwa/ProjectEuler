@@ -33,9 +33,17 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  24 | Lexicographic permutations | 5% |
 |  25 | 1000-digit Fibonacci number | 5% |
 |  26 | Reciprocal cycles | 5% |
+|  27 | Quadratic primes | 5% |
+|  28 | Number spiral diagonals | 5% |
+|  29 | Distinct powers | 5% |
+|  30 | Digit fifth powers | 5% |
 |  31 | Coin sums | 5% |
 |  32 | Pandigital products | 5% |
+|  33 | Digit cancelling fractions | 5% |
+|  34 | Digit factorials | 5% |
 |  35 | Circular primes | 5% |
+|  36 | Double-base palindromes | 5% |
+|  37 | Truncatable primes | 5% |
 |  38 | Pandigital multiples | 5% |
 |  42 | Coded triangle numbers | 5% |
 |  46 | Goldobach's other conjecture | 5% |
