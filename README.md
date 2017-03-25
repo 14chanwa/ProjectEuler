@@ -45,7 +45,11 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  36 | Double-base palindromes | 5% |
 |  37 | Truncatable primes | 5% |
 |  38 | Pandigital multiples | 5% |
+|  39 | Integer right triangles | 5% |
+|  40 | Champernowne's constant | 5% |
+|  41 | Pandigital prime | 5% |
 |  42 | Coded triangle numbers | 5% |
+|  43 | Sub-string divisibility | 5% |
 |  46 | Goldobach's other conjecture | 5% |
 |  54 | Poker hands | 10% |
 |  65 | Convergents of e | 15% |
