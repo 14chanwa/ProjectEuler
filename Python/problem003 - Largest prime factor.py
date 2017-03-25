@@ -6,7 +6,8 @@
 # Largest prime factor
 
 import math
-import util_primeNumbers
+
+from Python import util_primeNumbers
 
 
 def problem3(n):

@@ -10,7 +10,8 @@
 # primality of each of them from the greatest to the lowest.
 
 from itertools import permutations
-import util_primeNumbers
+
+from Python import util_primeNumbers
 
 
 def get_maximum_pandigital_prime():

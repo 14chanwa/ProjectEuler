@@ -5,7 +5,7 @@
 # Project Euler - Problem 27
 # Quadratic primes
 
-import util_primeNumbers
+from Python import util_primeNumbers
 
 
 def get_maximum_consecutive_primes(a, b):

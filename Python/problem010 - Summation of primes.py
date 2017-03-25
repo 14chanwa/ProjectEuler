@@ -6,7 +6,8 @@
 # Summation of primes
 
 import tqdm
-from util_primeNumbers import get_nth_prime
+
+from Python.util_primeNumbers import get_nth_prime
 
 
 def problem10(max):

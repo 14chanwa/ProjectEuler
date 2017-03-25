@@ -6,7 +6,7 @@
 # Smallest multiple
 
 
-from util_primeNumbers import is_prime
+from Python.util_primeNumbers import is_prime
 
 
 def problem5(maxEven):

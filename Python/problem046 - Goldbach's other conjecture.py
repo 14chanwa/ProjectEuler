@@ -5,7 +5,7 @@
 # Project Euler - Problem 46
 # Goldbach's other conjecture
 
-import util_primeNumbers
+from Python import util_primeNumbers
 
 
 def problem046():

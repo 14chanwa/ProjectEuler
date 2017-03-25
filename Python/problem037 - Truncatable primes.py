@@ -5,7 +5,7 @@
 # Project Euler - Problem 37
 # Truncatable primes
 
-import util_primeNumbers
+from Python import util_primeNumbers
 
 
 def is_truncatable_prime(p):
