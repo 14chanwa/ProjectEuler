@@ -52,6 +52,8 @@ I used Python3 along with its native libraries, plus tqdm for the progress bars.
 |  41 | Pandigital prime | 5% |
 |  42 | Coded triangle numbers | 5% |
 |  43 | Sub-string divisibility | 5% |
+|  44 | Pentagon numbers | 5% |
+|  45 | Triangular, pentagonal and hexagonal | 5% |
 |  46 | Goldobach's other conjecture | 5% |
 |  54 | Poker hands | 10% |
 |  65 | Convergents of e | 15% |
